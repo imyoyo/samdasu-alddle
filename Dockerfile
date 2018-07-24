@@ -3,9 +3,9 @@ FROM golang:1.10
 ENV GOPATH /go
 ENV PATH $GOPATH/bin:/usr/local/go/bin:$PATH
 
-ADD . $GOPATH/src/github.com/backendservice/samdasu-alddle
+ADD . $GOPATH/src/samdasu-alddle
 
-WORKDIR $GOPATH/src/github.com/backendservice/samdasu-alddle
+WORKDIR $GOPATH/src/samdasu-alddle
 
 RUN go get -u github.com/golang/dep/...
 RUN dep ensure
