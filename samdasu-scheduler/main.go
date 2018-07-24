@@ -4,7 +4,7 @@ import (
 	"log"
 	"time"
 
-	pb "github.com/backendservice/samdasu-alddle"
+	pb "samdasu-alddle"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )

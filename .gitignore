@@ -23,3 +23,5 @@
 samdasu-client/client
 samdasu-scheduler/scheduler
 samdasu-server/server
+
+*.pb.go

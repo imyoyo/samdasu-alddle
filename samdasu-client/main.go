@@ -8,7 +8,7 @@ import (
 
 	"github.com/satori/go.uuid"
 
-	pb "github.com/backendservice/samdasu-alddle"
+	pb "samdasu-alddle"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )

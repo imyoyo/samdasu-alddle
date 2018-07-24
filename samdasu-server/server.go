@@ -9,7 +9,7 @@ import (
 	"net"
 
 	"github.com/SherClockHolmes/webpush-go"
-	pb "github.com/backendservice/samdasu-alddle"
+	pb "samdasu-alddle"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 )
